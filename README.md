@@ -38,5 +38,12 @@ Es un clon de la página de inicio de sesión de Facebook.
 * ``` fake_facebook.html ``` :
 Es una plantilla para el contenido HTML de un correo electrónico.
 
+# Screenshot
+
+Contenido de correo electrónico: 
+![alt text](fake_facebook.png)
+
+Clon de facebook:
+![alt text](facebook_clone.png)
 
 
