@@ -10,7 +10,7 @@ Es una sitio web que simula una aplicación de intercambio de dinero.
 Al iniciar sesión, permite ver la cantidad de dinero que tiene el usuario, además que permite enviar dinero a otro usuario. 
 
 * ``` process_vulnerable.php ``` :
-Permite procesar la información que genera ~~~~ login_vulnerable.html ~~~~
+Permite procesar la información que genera ``` login_vulnerable.php ```
 
 * ``` facebook_mask.php ``` :
 Es un clon de la página de inicio de sesión de Facebook.
