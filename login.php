@@ -8,6 +8,7 @@ session_start();
 </head>
 <body>
 	<?php
+	// Login protegido con token de autenticacion
 	if(isset($_SESSION["user"])){
 		echo("<h3>Hola " .$_SESSION["user"]."</h3>");
 		$_SESSION['token'] = md5(uniqid(mt_rand(),true));
