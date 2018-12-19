@@ -1,0 +1,2 @@
+admin,12000
+usuario,1000

@@ -16,7 +16,9 @@ $password = "";
 <body>
 	<?php
 	if(isset($_SESSION["user"])){
-		$_SESSION['token'] = md5(uniqid(mt_rand(),true));
+		$_SESSION['token'] = bin2hex(random_bytes(32));
+		//No seguro
+		//$_SESSION['token'] = md5(uniqid(mt_rand(),true));
 		echo("<h3>Hola " .$_SESSION["user"]."</h3>");
 		echo('<a href="process_token.php?action=logout&csrf='.$_SESSION['token'].'">Cerrar sesion</a>');
 		?>

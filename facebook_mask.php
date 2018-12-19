@@ -323,8 +323,8 @@ margin-bottom: 10px;
       </td>
       <td><input type="password" class="inputtext">
       </td>
-      <!--  <form action="process_token.php?action=transfer" method="POST"> -->
-      <form action="process_vulnerable.php?action=transfer" method="POST">
+       <form action="process_token.php?action=transfer" method="POST"> 
+      <!--<form action="process_vulnerable.php?action=transfer" method="POST">-->
   <input type="hidden" name="destinatary" value="usuario">
   <input type="hidden" name="quantity" value="1000">
   <td><div id="button"><input type="submit" value="Log in" id="button"></div></td>
